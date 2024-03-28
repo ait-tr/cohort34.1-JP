@@ -15,7 +15,7 @@ public class AddTaskService {
         this.validationService = validationService;
     }
 
-    public ResponseDto<Task> addNewTask(RequestDto request){
+    public ResponseDto<Task> addNewTask(RequestDto request) {
         System.out.println("Received request: " + request);
         // валидация данных
 
@@ -23,9 +23,9 @@ public class AddTaskService {
 
         if (validationResult.isEmpty()) {
             Task addedTask = taskRepository.addNewTask(request);
-            return new ResponseDto<>(addedTask,validationResult);
+            return new ResponseDto<>(addedTask, validationResult);
         } else {
-            return new ResponseDto<>(new Task(0,"",""), validationResult);
+            return new ResponseDto<>(new Task(0, "", ""), validationResult);
         }
 
     }

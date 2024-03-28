@@ -13,9 +13,9 @@ public class UI {
         this.addTaskService = addTaskService;
     }
 
-    public void start(){
+    public void start() {
 
-        while (true){
+        while (true) {
             System.out.println("Please enter your choice:");
             System.out.println("1. Add new task");
             System.out.println("2. Find task by Id");

@@ -6,7 +6,7 @@ import code.entity.Task;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TaskRepositoryImpl implements TaskRepository{
+public class TaskRepositoryImpl implements TaskRepository {
 
     private Integer taskIdCounter = 0;
     private List<Task> tasks = new ArrayList<>();

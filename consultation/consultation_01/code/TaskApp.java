@@ -10,7 +10,7 @@ public class TaskApp {
     public static void main(String[] args) {
         TaskRepository repository = new TaskRepositoryImpl();
         ValidationService validationService = new ValidationService();
-        AddTaskService addTaskService = new AddTaskService(repository,validationService);
+        AddTaskService addTaskService = new AddTaskService(repository, validationService);
 
         UI ui = new UI(addTaskService);
 
