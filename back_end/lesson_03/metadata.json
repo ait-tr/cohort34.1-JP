@@ -3,6 +3,7 @@
 	"theory": "theory.md",
 	"homework": "homework.md",
 	"code": [
-		"code/src/homeworks/imagga-collors.zip"
+		"code/src/homeworks/imagga-collors.zip",
+		"code/src/simple-web-service.zip"
 	]
 }
