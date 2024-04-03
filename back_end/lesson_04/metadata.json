@@ -5,6 +5,7 @@
 	"code": [
 		"code/src/homeworks/currency-converter.zip",
 		"code/WebServiceDesignAdv.pdf",
-		"code/Students.postman_collection.json"
+		"code/Students.postman_collection.json",
+		"code/src/students-service.zip"
 	]
 }
