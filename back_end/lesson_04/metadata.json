@@ -1,0 +1,10 @@
+{
+	"plan": "plan.md",
+	"theory": "theory.md",
+	"homework": "homework.md",
+	"code": [
+		"code/src/homeworks/currency-converter.zip",
+		"code/WebServiceDesignAdv.pdf",
+		"code/Students.postman_collection.json"
+	]
+}
