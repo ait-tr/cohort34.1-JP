@@ -51,7 +51,7 @@ It makes it easy to use data access technologies, relational and non-relational 
 
 - Расширенная интеграция с контроллерами Spring MVC.
 
-- Экспериментальная поддержка сохранения между магазинами.
+- Экспериментальная поддержка сохранения между хранилищами.
 
 <br/><br/>
 
