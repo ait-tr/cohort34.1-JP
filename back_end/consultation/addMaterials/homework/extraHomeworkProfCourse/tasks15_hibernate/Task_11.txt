@@ -1,0 +1,9 @@
+Реализация функциональности регистрации читателя в библиотеке
+состоит из следующих классов:
+
+ library/core/requests/RegisterReaderRequest.java
+ library/core/responses/RegisterReaderResponse.java
+ library/core/services/validators/RegisterReaderRequestValidator.java
+ library/core/services/RegisterReaderService.java
+ library/console_ui/RegisterReaderUIAction.java
+ library/console_ui/ProgramMenu.java

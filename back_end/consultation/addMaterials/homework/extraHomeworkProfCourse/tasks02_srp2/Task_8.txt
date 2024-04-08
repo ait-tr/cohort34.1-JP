@@ -1,0 +1,2 @@
+Подключите интерфейс  java2.realestate.core.database и его реализацию InMemoryDatabaseImpl
+к классу XXXListApplication.

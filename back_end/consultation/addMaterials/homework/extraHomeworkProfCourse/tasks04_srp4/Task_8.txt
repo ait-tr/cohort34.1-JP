@@ -1,0 +1,7 @@
+Подключите GetAllXXXService к классу GetAllXXXUIAction.
+Сделайте так, что бы GetAllXXXUIAction напрямую вызывал
+GetAllXXXService и не использовал  java2.realestate.core.database.
+
+У нас будет следующая связка:
+
+GetAllXXXUIAction -> GatAllXXXService ->  java2.realestate.core.database.
