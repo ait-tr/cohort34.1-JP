@@ -4,6 +4,7 @@
 	"homework": "homework.md",
 	"code": [
 		"code/src/homeworks/forum-service.zip",
-		"code/UserAccount.postman_collection.json"
+		"code/UserAccount.postman_collection.json",
+		"code/src/forum-service.zip"
 	]
 }
