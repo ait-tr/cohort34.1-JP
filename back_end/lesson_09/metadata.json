@@ -4,6 +4,7 @@
 	"homework": "homework.md",
 	"code": [
 		"code/src/homeworks/forum-service.zip",
-		"code/ForumEndpoints.xls"
+		"code/ForumEndpoints.xls",
+		"code/src/forum-service.zip"
 	]
 }
