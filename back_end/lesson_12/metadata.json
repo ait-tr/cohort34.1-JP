@@ -3,6 +3,7 @@
 	"theory": "theory.md",
 	"homework": "homework.md",
 	"code": [
-		
+		"code/ForumEndpoints.xls",
+		"code/src/forum-service.zip"
 	]
 }
