@@ -3,7 +3,8 @@
 	"theory": "theory.md",
 	"homework": "homework.md",
 	"code": [
-		"PersonInheritance.postman_collection.json",
+		"code/PersonInheritance.postman_collection.json",
+		"code/src/homeworks/person-service.zip",
 		"code/src/person-service.zip"
 	]
 }

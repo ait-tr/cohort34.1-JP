@@ -1,14 +1,14 @@
 Русский текст смотри ниже
 
-#Transactionality#
+# Transactionality #
 
 To ensure that the operations performed in a method are transactional, Spring Data JPA recommends using the @transactional annotation
 
-#JPQL#
+# JPQL #
 
 To access the database, JPA provides JPQL (Java Persistence Query Language) - a SQL-like, object-oriented query language.
 
-#Inheritance#
+# Inheritance #
 
 JPA describes three Inheritance Mapping Strategies, that is, how JPA will work with Entity descendant classes:
 
@@ -25,15 +25,15 @@ To set the inheritance strategy, use the Inheritance annotation (or correspondin
 
 <br/><hr/><br/>
 
-#Транзакционность#
+# Транзакционность #
 
 Для обеспечения транзакционности выполняемых в методе операций, Spring Data JPA рекомендует использовать аннотацию @transactional
 
-#JPQL#
+# JPQL #
 
 Для обращения к БД, JPA предоставляет JPQL (Java Persistence Query Language) - SQL-подобный, объектно-ориентированный язык запросов.
 
-#Наследование#
+# Наследование #
 
 В JPA описаны три стратегии наследования мапинга (Inheritance Mapping Strategies), то есть как JPA будет работать с классами-наследниками Entity:
 
