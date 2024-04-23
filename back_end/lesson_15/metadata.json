@@ -3,6 +3,7 @@
 	"theory": "theory.md",
 	"homework": "homework.md",
 	"code": [
-		"code/Book.postman_collection.json"
+		"code/Book.postman_collection.json",
+		"code/src/person-service.zip"
 	]
 }
