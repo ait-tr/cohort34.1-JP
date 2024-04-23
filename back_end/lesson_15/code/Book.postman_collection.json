@@ -1,0 +1,585 @@
+{
+	"info": {
+		"_postman_id": "9d9e77f5-1a11-4fa1-b513-df33e86fb1ac",
+		"name": "Book",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add book",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"isbn\": \"1000\",\n\t\"title\": \"Title1\",\n\t\"authors\": [\n        {\n            \"name\": \"Author1\",\n            \"birthDate\": \"1990-05-23\"\n        }\n    ],\n\t\"publisher\": \"Publisher1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/book",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find book by isbn",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/book/1000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"book",
+						"1000"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Find book by isbn",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/book/1000",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"book",
+								"1000"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 30 Dec 2021 08:19:11 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"isbn\": \"1000\",\n    \"title\": \"Title1\",\n    \"authors\": [\n        {\n            \"name\": \"Author1\",\n            \"birthDate\": \"1990-05-23\"\n        }\n    ],\n    \"publisher\": \"Publisher1\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Remove book ",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/book/1000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"book",
+						"1000"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Remove book ",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/book/1000",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"book",
+								"1000"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 30 Dec 2021 08:28:38 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"isbn\": \"1000\",\n    \"title\": \"Title1\",\n    \"authors\": [\n        {\n            \"name\": \"Author1\",\n            \"birthDate\": \"1990-05-23\"\n        }\n    ],\n    \"publisher\": \"Publisher1\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Update book title",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/book/1000/title/Title111",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"book",
+						"1000",
+						"title",
+						"Title111"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update book title",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/book/1000/title/Title111",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"book",
+								"1000",
+								"title",
+								"Title111"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 30 Dec 2021 08:49:43 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"isbn\": \"1000\",\n    \"title\": \"Title111\",\n    \"authors\": [\n        {\n            \"name\": \"Author1\",\n            \"birthDate\": \"1990-05-23\"\n        }\n    ],\n    \"publisher\": \"Publisher1\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Find books by author",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/books/author/Author1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"books",
+						"author",
+						"Author1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Find books by author",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/books/author/Author1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"books",
+								"author",
+								"Author1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 30 Dec 2021 08:57:06 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"isbn\": \"2000\",\n        \"title\": \"Title2\",\n        \"authors\": [\n            {\n                \"name\": \"Author2\",\n                \"birthDate\": \"1991-10-12\"\n            },\n            {\n                \"name\": \"Author1\",\n                \"birthDate\": \"1990-05-23\"\n            }\n        ],\n        \"publisher\": \"Publisher2\"\n    },\n    {\n        \"isbn\": \"1000\",\n        \"title\": \"Title1\",\n        \"authors\": [\n            {\n                \"name\": \"Author1\",\n                \"birthDate\": \"1990-05-23\"\n            }\n        ],\n        \"publisher\": \"Publisher1\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Find books by publisher",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/books/publisher/Publisher2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"books",
+						"publisher",
+						"Publisher2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Find books by publisher",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/books/publisher/Publisher2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"books",
+								"publisher",
+								"Publisher2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 30 Dec 2021 09:13:55 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"isbn\": \"2000\",\n        \"title\": \"Title2\",\n        \"authors\": [\n            {\n                \"name\": \"Author1\",\n                \"birthDate\": \"1990-05-23\"\n            },\n            {\n                \"name\": \"Author2\",\n                \"birthDate\": \"1991-10-12\"\n            }\n        ],\n        \"publisher\": \"Publisher2\"\n    },\n    {\n        \"isbn\": \"3000\",\n        \"title\": \"Title3\",\n        \"authors\": [\n            {\n                \"name\": \"Author2\",\n                \"birthDate\": \"1991-10-12\"\n            }\n        ],\n        \"publisher\": \"Publisher2\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Find book authors",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/authors/book/2000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"authors",
+						"book",
+						"2000"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Find book authors",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/authors/book/2000",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"authors",
+								"book",
+								"2000"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 30 Dec 2021 09:54:38 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"name\": \"Author2\",\n        \"birthDate\": \"1991-10-12\"\n    },\n    {\n        \"name\": \"Author1\",\n        \"birthDate\": \"1990-05-23\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Find publishers by author",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/publishers/author/Author2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"publishers",
+						"author",
+						"Author2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Find publishers by author",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/publishers/author/Author2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"publishers",
+								"author",
+								"Author2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 30 Dec 2021 10:33:20 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    \"Publisher2\"\n]"
+				}
+			]
+		},
+		{
+			"name": "Remove author",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/author/Author1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"author",
+						"Author1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Remove author",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/author/Author1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"author",
+								"Author1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 30 Dec 2021 10:49:49 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"Author1\",\n    \"birthDate\": \"1990-05-23\"\n}"
+				}
+			]
+		}
+	]
+}
