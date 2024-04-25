@@ -43,7 +43,7 @@ An Entity object has four lifecycle states: new, managed, detached, or removed. 
 
 4. removed — объект создан, управляется JPA, но будет удален после commit'a транзакции.
 
-<img src="https://github.com/ait-tr/cohort34.1-JP/blob/main/front_end/lesson_17/jpaentitystates.png?raw=true" alt="JPA Entity Manager"/>
+<img src="https://github.com/ait-tr/cohort34.1-JP/blob/main/back_end/lesson_17/jpaentitystates.png?raw=true" alt="JPA Entity Manager"/>
 
 <br/>
 
