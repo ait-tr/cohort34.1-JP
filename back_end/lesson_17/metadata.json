@@ -1,0 +1,11 @@
+{
+	"plan": "plan.md",
+	"theory": "theory.md",
+	"homework": "homework.md",
+	"code": [
+		"code/src/homeworks/book-service.zip",
+		"code/src/book-service-em.zip",
+		"code/src/book-service-bidirectional.zip",
+		"code/src/book-service-unidirectional.zip"
+	]
+}

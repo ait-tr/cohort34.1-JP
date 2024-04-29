@@ -1,0 +1,10 @@
+{
+	"plan": "plan.md",
+	"theory": "theory.md",
+	"homework": "homework.md",
+	"code": [
+		"code/src/homeworks/book-service.zip",
+		"code/src/book-service.zip",
+		"code/src/book-fetch-strategy.zip"
+	]
+}
