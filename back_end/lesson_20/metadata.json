@@ -4,8 +4,8 @@
 	"homework": "homework.md",
 	"code": [
 		"code/DockerIntro.pdf",
-		"code/src/java/Dockerfile",
-		"code/src/front_end/Dockerfile",
+		"code/src/java/Dockerfile.txt",
+		"code/src/front_end/Dockerfile.txt",
 		"code/src/docker_build.txt"
 	]
 }
