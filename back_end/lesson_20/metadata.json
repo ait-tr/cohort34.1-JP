@@ -3,6 +3,9 @@
 	"theory": "theory.md",
 	"homework": "homework.md",
 	"code": [
-		"code/DockerIntro.pdf"
+		"code/DockerIntro.pdf",
+		"code/src/java/Dockerfile",
+		"code/src/front_end/Dockerfile",
+		"code/src/docker_build.txt"
 	]
 }

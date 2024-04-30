@@ -1,0 +1,11 @@
+docker build -t eddfish/star-wars:0.1.0 -t eddfish/star-wars:latest .
+
+docker run --name star-wars -d -p 5050:80 eddfish/star-wars
+
+docker login
+
+docker push eddfish/star-wars:latest
+
+docker build -t eddfish/forum-service:0.1.0 -t eddfish/forum-service:latest .
+
+docker run --name forum -d -p 8080:8080 eddfish/forum-service
